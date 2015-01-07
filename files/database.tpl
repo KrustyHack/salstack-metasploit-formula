@@ -1,0 +1,11 @@
+{{ pillar['headers']['salt']['bash'] -}}
+
+production:
+  adapter: postgresql
+  database: msf
+  username: msf
+  password: msf
+  host: 127.0.0.1
+  port: 5432
+  pool: 75
+  timeout: 5
